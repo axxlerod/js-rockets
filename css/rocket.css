@@ -1,7 +1,7 @@
 .left{
 	background-color: aliceblue;
 	position: fixed;
-	width: 50%;
+	width: 40%;
 	height: 100%;
 	top: 0;
 	left: 0;
@@ -21,18 +21,18 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	width: 50%;
+	width: 60%;
 	height: 20px;
 
 }
 
 .rocket{
 	position: absolute;
-	left: 50%;
+	left: 40%;
 	bottom: 20px;
 	width: 124px;
 	height: 468px;
-	margin-left: 62px;
+	margin-left: 12px;
 	background: url('../img/rocketonground.png') no-repeat 0 0;
 	transition: bottom 10000ms;
 }
@@ -41,7 +41,7 @@ body.body-state1 .rocket{
 	transition: none;
 }
 
-body.body-state1 .rocket,
+body.body-state1 .rocket{   }
 body.body-state2 .rocket{
 	background-image: url('../img/rocket-withfire.png') 
 }
@@ -52,8 +52,9 @@ body.body-state4 .rocket{
 
 body.body-state5 .rocket{
 	width: 365px;
-	margin-left: 182.5px;
+	margin-left: 0px;
 	background-image: url('../img/rocket-explodes1.png');
+	/** background-image: url('../img/rocket-explodes1--2.png'); **/
 }
 
 body.body-state3 .rocket,
