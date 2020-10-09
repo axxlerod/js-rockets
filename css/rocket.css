@@ -34,7 +34,7 @@
 	height: 468px;
 	margin-left: 12px;
 	background: url('../img/rocketonground.png') no-repeat 0 0;
-	transition: bottom 10000ms;
+	transition: bottom 100000ms;
 }
 
 body.body-state1 .rocket{
@@ -59,7 +59,7 @@ body.body-state5 .rocket{
 
 body.body-state3 .rocket,
 body.body-state4 .rocket{
-	bottom: 1000px;
+	bottom: 100000px;
 }
 
 .state1{
