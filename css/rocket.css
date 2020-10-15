@@ -43,15 +43,15 @@ body .left .button{
 	height: 468px;
 	margin-left: 12px;
 	background: url('../img/rocketonground.png') no-repeat 0 0;
-	transition: bottom 100000ms;
+	transition: bottom 1000000ms;
 }
 
-body.body-state1 .rocket{
+body.body-state1.rocket{
 	transition: none;
 }
 
-body.body-state1 .rocket{   }
-body.body-state2 .rocket{
+body.body-state1.rocket{   }
+body.body-state2.rocket{
 	background-image: url('../img/rocket-withfire.png') 
 }
 body.body-state3 .rocket,
